@@ -33,6 +33,15 @@ namespace gitDefinitivo;
 
         OcultarDetalles();
     }
+    private void GoToPaisesPage(object sender, EventArgs e)
+    {
+
+        NavigationToPage(new Paises());
+
+        OcultarDetalles();
+    }
+
+
 
 
 }
