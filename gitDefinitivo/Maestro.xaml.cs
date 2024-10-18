@@ -24,13 +24,7 @@ namespace gitDefinitivo;
         App.FlyoutPage.IsPresented = false;
     }
 
-    private void GoToCafePage(object sender, EventArgs e)
-    {
-
-        NavigationToPage(new Cafe());
-
-        OcultarDetalles();
-    }
+    
 
     private void GoToFutbolPage(object sender, EventArgs e)
     {
