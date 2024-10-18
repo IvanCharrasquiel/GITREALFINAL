@@ -79,11 +79,13 @@
 	  <MauiXaml Update="Pages\Paises.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+
+		<MauiXaml Update="Pages\Cafe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Models\" />
-	  <Folder Include="Pages\" />
-	</ItemGroup>
+	
 
 </Project>

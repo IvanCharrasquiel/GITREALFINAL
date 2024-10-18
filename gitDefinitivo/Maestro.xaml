@@ -28,6 +28,10 @@
                     Clicked="GoToPaisesPage"
                     Margin="20,10"/>
 
+            <Button Text="Datos curiosos cafe"
+             Clicked="GoToCafePage"
+             Margin="20,10"/>
+
 
 
         </VerticalStackLayout>
