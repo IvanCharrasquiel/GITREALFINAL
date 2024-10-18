@@ -12,11 +12,6 @@
              Clicked="GoToCafePage"
              Margin="20,10"/>
 
-            <Button Text="Futbol"
-             Clicked="GoToFutbolPage"
-             Margin="20,10">
-            </Button>
-
 
 
         </VerticalStackLayout>
