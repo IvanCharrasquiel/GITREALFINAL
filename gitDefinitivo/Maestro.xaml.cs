@@ -43,5 +43,10 @@ namespace gitDefinitivo;
 
 
 
+    private void Programacion_Clicked(object sender, EventArgs e)
+    {
+        NavigationToPage(new ProgramacionPage());
+        OcultarDetalles();
+    }
 
 }

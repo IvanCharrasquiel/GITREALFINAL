@@ -7,7 +7,16 @@
     <ScrollView>
 
         <VerticalStackLayout >
+             <Label Text="CURIOSIDADES"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="Navy"/>
 
+            <Image Source="jorge.png"/>
+            <Button Text="Programacion"
+                    Clicked="Programacion_Clicked"
+                    Margin="20,10">
+            </Button>
            
 
             <Button Text="Futbol"
@@ -25,4 +34,5 @@
     </ScrollView>
 
   
+    
 </ContentPage>
